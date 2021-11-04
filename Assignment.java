@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -15,6 +14,7 @@ public class Assignment {
         sum = sum+Integer.parseInt(line);
         line = br.readLine();
         }
+        br.close();
         System.out.println(sum);
     }
 }
