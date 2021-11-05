@@ -21,6 +21,6 @@ public class FileWriter1 {
         fw.close();
         br.close();
         fir.close();
-        System.out.println("bdone");
+        System.out.println("bbdone");
     }
 }
